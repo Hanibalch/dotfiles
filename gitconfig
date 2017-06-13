@@ -1,0 +1,13 @@
+[core]
+	name = Hannes Martin
+	email = public@hmartin.xyz
+    editor = nvim
+[user]
+	name = Hannes Martin
+	email = public@hmartin.xyz
+[mergetool "vimdiff3"]
+	path = nvim
+[mergetool "vimdiff"]
+	path = nvim
+[merge]
+	tool = vimdiff3
