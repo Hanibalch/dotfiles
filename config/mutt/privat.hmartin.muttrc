@@ -1,0 +1,20 @@
+# vim: filetype=muttrc
+
+set imap_user = "MAIL"
+set imap_pass = "Password"
+
+set from = "MAIL"
+set realname = "Hannes Martin"
+
+set hostname = "hmartin.xyz"
+set folder = "imaps://ghost.mxroute.com:993"
+set spoolfile = "imaps://ghost.mxroute.com:993/Inbox"
+set postponed = "imaps://ghost.mxroute.com:993/Drafts"
+set record = "imaps://ghost.mxroute.com:993/Sent"
+set mbox = "imaps://ghost.mxroute.com:993/Archive"
+set smtp_url = "smtp://ghost.mxroute.com:465"
+set smtp_pass = "56m&hyBZbuKVkU"
+
+
+# Include the profile name in the status line
+set status_format="-%r-Mutt: %f [Msgs:%?M?%M/?%m%?n? New:%n?%?o? Old:%o?%?d? Del:%d?%?F? Flag:%F?%?t? Tag:%t?%?p? Post:%p?%?b? Inc:%b? %?l? %l?]---(%s/%S)-private@hmartin.xyz-%>-(%P)---"

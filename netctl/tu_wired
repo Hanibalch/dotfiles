@@ -1,0 +1,7 @@
+Description='Tu Darmstadt wired'
+Interface=enp0s25
+Connection=ethernet
+IP=dhcp
+Auth8021X=yes
+Priority=2
+WPAConfigFile=/etc/wpa_supplicant/wired_edu.conf

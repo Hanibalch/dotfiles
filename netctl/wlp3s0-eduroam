@@ -1,0 +1,18 @@
+Description='Eduroam-profile for hm19gepu'
+Interface=wlp3s0
+Connection=wireless
+Security='wpa-configsection'
+IP=dhcp
+ESSID=eduroam
+WPAConfigSection=(
+        'ssid="eduroam"'
+        'key_mgmt=WPA-EAP'
+	'pairwise=CCMP'
+	'group=CCMP TKIP'
+        'eap=PEAP'
+        'ca_cert="/etc/ssl/certs/Deutsche_Telekom_Root_CA_2.pem"'
+        'identity="TUID@tu-darmstadt.de"'
+        'phase2="auth=MSCHAPV2"'
+        'password="PASSWORD"'
+        'anonymous_identity="anonymous@tu-darmstadt.de"'
+        )
